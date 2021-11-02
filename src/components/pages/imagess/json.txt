@@ -1,0 +1,29 @@
+import React from "react";
+import "../../App.css";
+import potato from "./imagess/potato.PNG";
+
+import product_card from "./VegetablesData";
+
+const Vegetables = () => {
+  const listItems = product_card.map((item) => (
+    <div class="row">
+      <div class="column">
+        <div className="card" key={item.id}>
+          <div className="card_img">
+            <img src={item.thumb} />
+          </div>
+          <div className="card_header">
+            <h2>{item.product_name}</h2>
+            <p className="price">
+              {item.price}
+              <span>{item.currency}</span>
+            </p>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  ));
+  return <div className="veg_head">{listItems}</div>;
+};
+export default Vegetables;

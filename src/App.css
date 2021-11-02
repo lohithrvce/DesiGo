@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header,
+.products,
+.FAQ,
+.contact-us,
+.sign-up,
+.marketing,
+.consulting {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home {
+  /*background-image: url("./images/img-1.jpg");*/
+  /* background-position: center;*/
+  /* background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  color: #fff;
+  font-size: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.products {
+  background-image: url("./images/img-3.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.FAQ {
+  color: #fff;
+  font-size: 100px;
+}
+
+.cc {
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url("./images/img-7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.marketing {
+  background-image: url("./images/img-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.consulting {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.Humus-header,
+.Humus-image,
+.text {
+  padding-top: 40px;
+}
+.para {
+  padding-top: 20px;
+}
+.veg_head {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.card_img {
+  padding-top: 30px;
+}
+.EggMilk_head {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 40px;
+}
+.EggMilk_head2 {
+  padding-left: 03spx;
+  padding-right: 60px;
+  padding-top: 40px;
+}
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
   display: flex;
-  flex-direction: column;
+}
+/*search bar*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.App {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
 }
