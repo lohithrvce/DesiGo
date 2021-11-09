@@ -29,6 +29,13 @@
   font-size: 1.6rem;
 }
 
+.nav-shopping-category {
+  padding-right: 100px;
+  height: 05px;
+  font-size: 30px;
+  text-align: right;
+}
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(8, auto);

@@ -7,6 +7,7 @@ import DropdownFruits from "./DropdownFruits";
 import DropdownMilkeggs from "./DropdownMilkegg";
 import DropdownOurStore from "./DropdownOurStore";
 import image3 from "./pages/imagess/image3.PNG";
+import desigo from "./pages/imagess/desigo.PNG";
 import SearchBar from "./pages/SearchBar";
 import BookData from "./../Data.json";
 
@@ -125,10 +126,16 @@ function Navbar() {
       <div className="App">
         <SearchBar placeholder="Search for products..." data={BookData} />
       </div>
+      <div className="nav-shopping-category">
+        <Link class="fab fa-buromobelexperte" />
+        <span>
+          <Link class="fas fa-shopping-basket" />
+        </span>
+      </div>
+
       <div>
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <img src={image3} width="100px" />
-          <i class="fab fa-firstdraft" />
+          <img src={desigo} width="200px" />
         </Link>
       </div>
     </>
