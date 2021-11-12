@@ -36,8 +36,12 @@ function Navbar() {
 
   return (
     <>
-      <div className="Nav-Header">Welcome To DesiGo !!</div>
+      <div>
+        <h1 className="Nav-Header"> Welcome To DesiGo !!</h1>
+      </div>
+
       <nav className="navbar">
+        <img className="navbar-logo" src={desigo} width="80px" />
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
@@ -123,20 +127,17 @@ function Navbar() {
           </li>
         </ul>
       </nav>
+
       <div className="App">
         <SearchBar placeholder="Search for products..." data={BookData} />
       </div>
       <div className="nav-shopping-category">
-        <Link class="fab fa-buromobelexperte" />
+        <Link to="/" class="fab fa-buromobelexperte"></Link>
         <span>
-          <Link class="fas fa-shopping-basket" />
+          <Link to="/" class="fas fa-shopping-basket">
+            bag
+          </Link>
         </span>
-      </div>
-
-      <div>
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <img src={desigo} width="200px" />
-        </Link>
       </div>
     </>
   );

@@ -14,6 +14,7 @@
 .consulting {
   padding-left: 60px;
   padding-right: 60px;
+  padding-top: 110px;
 }
 
 .home {
@@ -107,6 +108,7 @@
   clear: both;
   display: flex;
 }
+
 /*search bar*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 .App {
