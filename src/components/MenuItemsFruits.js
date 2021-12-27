@@ -1,22 +1,22 @@
 export const MenuItemsFruits = [
   {
     title: "Bananna",
-    path: "/marketing",
+    path: "/Bananna",
     cName: "dropdown-link",
   },
   {
-    title: "pramogranate",
-    path: "/consulting",
+    title: "Promogranate",
+    path: "/Promogranate",
     cName: "dropdown-link",
   },
   {
     title: "watermeleon",
-    path: "/design",
+    path: "/Watermeleon",
     cName: "dropdown-link",
   },
   {
-    title: "mosambi",
-    path: "/development",
+    title: "Apple",
+    path: "/Apple",
     cName: "dropdown-link",
   },
 ];
